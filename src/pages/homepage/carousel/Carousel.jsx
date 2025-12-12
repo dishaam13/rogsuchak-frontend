@@ -1,6 +1,6 @@
 import tomato from "./cropsImages/tomato.svg";
 import potato from "./cropsImages/potato.svg";
-import BellPepper from "./cropsImages/bellPepper.svg";
+import bellPepper from "./cropsImages/bellPepper.svg";  // ✅ FIXED
 import apple from "./cropsImages/apple.svg";
 import blueberry from "./cropsImages/blueberry.svg";
 import cherry from "./cropsImages/cherry.svg";
@@ -16,7 +16,7 @@ export default function Carousel() {
   const images = [
     { id: 1, src: tomato, name: "Tomato" },
     { id: 2, src: potato, name: "Potato" },
-    { id: 3, src: bellPepper, name: "Bell Pepper" },
+    { id: 3, src: bellPepper, name: "Bell Pepper" },   // ✅ FIXED
     { id: 4, src: apple, name: "Apple" },
     { id: 5, src: blueberry, name: "Blueberry" },
     { id: 6, src: cherry, name: "Cherry" },
