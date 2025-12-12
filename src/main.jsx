@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { inject } from "@vercel/analytics";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +15,9 @@ import Layout from "./Layout.jsx";
 import "./globals.css";
 import { element } from "prop-types";
 import Treatment from "./pages/treatment/Treatment.jsx";
+
+// Initialize Vercel Web Analytics
+inject();
 
 
 const router = createBrowserRouter([
