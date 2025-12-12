@@ -1,6 +1,6 @@
 import { useState } from "react";
-import FaqAnswers from "./faqanswers";
-import FaqQuestions from "./faqquestions";
+import FaqAnswers from "./FaqAnswers.jsx";
+import FaqQuestions from "./FaqQuestions.jsx";
 import { useDarkMode } from "../../DarkModeContext";
 import "./faq.css";
 
