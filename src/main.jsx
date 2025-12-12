@@ -13,7 +13,7 @@ import { DarkModeProvider } from "./DarkModeContext.jsx";
 import Layout from "./Layout.jsx";
 import "./globals.css";
 import { element } from "prop-types";
-import Treatment from "./pages/treatment/treatment.jsx";
+import Treatment from "./pages/treatment/Treatment.jsx";
 
 
 const router = createBrowserRouter([
