@@ -1,5 +1,5 @@
 import { useDarkMode } from '../../DarkModeContext';
-import './loadingScreen.css';
+import "./LoadingScreen.css";
 
 
 export default function LoadingScreen(){
